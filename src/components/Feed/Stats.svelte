@@ -5,8 +5,8 @@
 </script>
 
 <div class="stats">
-    <h4>{count} Reviews</h4>
     {#if count}
+    <h4>{count} Reviews</h4>
     <h4>Ratings Average: {average}</h4>
   {/if}
 </div>
